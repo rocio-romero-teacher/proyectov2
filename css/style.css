@@ -1,0 +1,198 @@
+ 
+ /*_____empieza html index_____*/
+#container {
+    background-color: #264653;
+    display: grid;
+    grid-template-columns: 2fr 2fr 0.7fr;
+    grid-template-rows: -0.5fr 2fr 0.7fr;
+    grid-template-areas:
+    "header header ads"
+    "main main ads"
+    "pie pie ads"
+}
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 12px;
+     }
+    main {
+        grid-area: main;
+        background-color: lightgray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+        display: flex;
+        flex-wrap: wrap;
+    }  
+    main h2 {
+        color: black;
+        font-size: 15px;
+    }
+    main h3 {
+        color: black;
+        font-size: 15px;
+    }
+    main h4 {
+        color: black;
+        font-size: 15px;
+    }
+
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: #2A9D8F;
+    grid-area: header;
+}
+nav, ul, li, a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: lavender;
+    display: inline-block;
+    padding: 5px;
+  }
+nav ul li a:hover {
+    background-color: #264653;
+}
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+main img {
+    width: 20%;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    align-items: baseline;
+}
+
+h1 {
+    font-size: 22px;
+    color: black;
+}
+h2, h3, h4 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+aside {
+    background-color: #FFC857;
+    grid-area: ads;
+}
+footer {
+    font-size: 20px;
+    font-weight: bold;
+    color: lavender;
+    background-color:#2A9D8F;
+    grid-area: pie;
+    padding-top: 2px;
+}
+.font-color {
+    color: black;
+    font-size: 15px;
+}
+b {
+    text-decoration: underline;
+}
+
+
+    /*_____termina html index_____*/
+
+    /*_____empieza html novedades_____*/
+.tblstyle {
+    table-layout: fixed;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: midnightblue; 
+}
+
+#news {
+    display: grid;
+    grid-template-columns: 3fr;
+
+}
+
+#clr {
+    color: black;
+}
+    /*_____termina html novedades_____*/
+
+
+ /*____empieza html - quiénes somos____*/
+ 
+ #clr1 {
+    color: black;
+ }
+ 
+ #clr2 {
+    color: black;
+ }
+ /*____empieza html - quiénes somos____*/
+
+#imgconf {
+    width: 40%;
+    height: auto; 
+}
+
+.imgconf2 {
+    width: 40%;
+    height: auto;
+}
+
+
+/*____empieza html - nuestra historia____*/
+
+.gif {
+    width: 30%;
+    height: auto;
+}
+/*____termina html - nuestra historia____*/
+
+
+
+/*_____empieza html - servicios_____*/
+
+/*class-generales*/
+.img1 {
+    width: 225px;
+    height: 150px;
+}
+
+.img2{
+    width: 300px;
+    height: 150px;
+}
+
+.img4 {
+    width: 250px;
+    height: 150px;
+}
+
+.button {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: lightskyblue;
+    border: solid 2px lightskyblue;
+}
+
+
+/*llamados específicos*/
+
+article p {
+font-size:  15px;
+}
+img {
+    width: 125px; 
+    height: 150px;
+}
+
+/*_____termina html - servicios_____*/
